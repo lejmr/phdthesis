@@ -3,6 +3,30 @@
 
 jsem rád, že právě čtete tento průvodní dokument k šabloně phdthesis.cls, která vznikla protože jsem nebyl spokojen s komplikovaným provozem šablony felthesis, nelogičností fit šablony a zastaralostí všech ostatních šablon. Rozhodl jsem se tedy připravit šablonu, která bude maximálně kopírovat způsob práce s Latexem a jeho šablonou book jak jen to je možné. 
 
+```
+\title{Very Long Name of Disertation Thesis Dealing With Some Science}
+\author{Ing. Name Surname}
+\authorAffiliation{
+Department of Telecommunication Engineering\\
+Faculty of Electrical Engineering\\
+Czech Technical University in Prague\\
+Technická 2\\
+160 00 Prague 6\\
+Czech Republic \\
+\url{email_author@fel.cvut.cz}}
+\supervisor{Doc. Ing. Name Surname, Ph.D.}
+\supervisorAffiliation{
+Department of Telecommunication Engineering\\
+Faculty of Electrical Engineering\\
+Czech Technical University in Prague\\
+Technická 2\\
+160 00 Prague 6\\
+Czech Republic \\
+\url{email_supervisor@fel.cvut.cz}}
+\placeyear{Prague, March 2015}
+\date{March 2015}
+```
+
 V této složce je možné najít 3 ukázkové dokumenty sestavené právě diky šabloně phdthesis.cls, jedná se o Teze (statement), Seznam vlastní literatury (literature) a vlastní disertační práce (thesis-final). Dále je zde soubor, který se jmenuje thesis.tex a osobně se mi osvědčil pro vlastní psaní. 
 
 Při psaní disertační práce člověk naráží na spousty balastu okolo a v první chvíli se chce soustředit hlavně na samotné psaní. Přesně pro tyto účely slouží právě thesis.tex, který v sobě obsahuje minimální sadu balíčků a nastavení, aby bylo možné začít psát disertační práci. Tento soubor je postavený na základě šablony book, takže je možné použít vše na co jste zvyklí ze psaní článků. Tento dokument je navíc vhodný pro korekce, protože je kompaktnější.
