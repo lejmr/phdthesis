@@ -62,7 +62,7 @@ A pak jen začít psát
 \end{document}
 ```
 
-A výsledek vypadá dle [thesis-final.pdf]
+A výsledek vypadá dle (thesis-final.pdf)
 
 
 V této složce je možné najít 3 ukázkové dokumenty sestavené právě diky šabloně phdthesis.cls, jedná se o Teze (statement), Seznam vlastní literatury (literature) a vlastní disertační práce (thesis-final). Dále je zde soubor, který se jmenuje thesis.tex a osobně se mi osvědčil pro vlastní psaní. 
