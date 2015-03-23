@@ -19,6 +19,7 @@ Technická 2\\
 160 00 Prague 6\\
 Czech Republic \\
 \url{email_author@fel.cvut.cz}}
+
 \supervisor{Doc. Ing. Name Surname, Ph.D.}
 \supervisorAffiliation{
 Department of Telecommunication Engineering\\
