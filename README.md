@@ -1,14 +1,18 @@
 # Šablona pro psaní disertační prace na ČVUT FEL 
 
+Tento repositář obsahuje předváděcí verzi šablony pro psaní doktorský prací na FEL ČVUT v anglickém jazyce. Šablona vznikla protože jsem nebyl spokojen s komplikovaným provozem šablony felthesis, nelogičností fit šablony a zastaralostí všech ostatních šablon. Rozhodl jsem se tedy připravit šablonu, která bude maximálně kopírovat způsob práce s LaTeXem a jeho šablonou book jak jen to je možné. 
 
-jsem rád, že právě čtete tento průvodní dokument k šabloně phdthesis.cls, která vznikla protože jsem nebyl spokojen s komplikovaným provozem šablony felthesis, nelogičností fit šablony a zastaralostí všech ostatních šablon. Rozhodl jsem se tedy připravit šablonu, která bude maximálně kopírovat způsob práce s Latexem a jeho šablonou book jak jen to je možné. 
+Základní zavedení šablony je velmi jednoduché, a to:
+```
+\documentclass{phdthesis}
+```
 
-Nastavení jména disertační práce
+Následně je nutné nastavit jméno disertační práce:
 ```
 \title{Very Long Name of Disertation Thesis Dealing With Some Science}
 ```
 
-Informace o autorovi práce a jeho školiteli
+Poskytnout informaci o autorovi práce a jeho školiteli
 ```
 \author{Ing. Name Surname}
 \authorAffiliation{
@@ -36,6 +40,28 @@ Doplňující informace
 \placeyear{Prague, March 2015}
 \date{March 2015}
 ```
+
+A pak jen začít psát
+
+```
+\begin{document}
+
+\maketitle
+\listoftables
+\listoffigures
+\printglossary[title=List of Acronyms,toctitle=List of Acronyms]
+\tableofcontents
+
+
+\mainmatter
+%% Vlastni text disertacni prace
+
+\appendix
+%% Prilohy
+
+\end{document}
+```
+
 
 V této složce je možné najít 3 ukázkové dokumenty sestavené právě diky šabloně phdthesis.cls, jedná se o Teze (statement), Seznam vlastní literatury (literature) a vlastní disertační práce (thesis-final). Dále je zde soubor, který se jmenuje thesis.tex a osobně se mi osvědčil pro vlastní psaní. 
 
