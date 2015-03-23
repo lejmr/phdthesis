@@ -3,8 +3,13 @@
 
 jsem rád, že právě čtete tento průvodní dokument k šabloně phdthesis.cls, která vznikla protože jsem nebyl spokojen s komplikovaným provozem šablony felthesis, nelogičností fit šablony a zastaralostí všech ostatních šablon. Rozhodl jsem se tedy připravit šablonu, která bude maximálně kopírovat způsob práce s Latexem a jeho šablonou book jak jen to je možné. 
 
+Nastavení jména disertační práce
 ```
 \title{Very Long Name of Disertation Thesis Dealing With Some Science}
+```
+
+Informace o autorovi práce a jeho školiteli
+```
 \author{Ing. Name Surname}
 \authorAffiliation{
 Department of Telecommunication Engineering\\
@@ -23,6 +28,10 @@ Technická 2\\
 160 00 Prague 6\\
 Czech Republic \\
 \url{email_supervisor@fel.cvut.cz}}
+```
+
+Doplňující informace
+```
 \placeyear{Prague, March 2015}
 \date{March 2015}
 ```
